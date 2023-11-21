@@ -6,6 +6,8 @@ enable_testing()
 
 add_executable(FizzBuzz 
 Src/main.cpp
+Src/FizzBuzz.cpp
+Src/FizzBuzz.hpp
 )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
